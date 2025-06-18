@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+ body {
+        background-color:#8DD8FF;
+        margin: 0;
+        font-family: sans-serif;
+    }
+
+    .topbar {
+      background-color: #4DA8DA;
+      padding: 24px 30px;
+      color: whitesmoke;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+ 
+  a {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 8px;
+    transition: color 0.3s ease;
+    }
+
+  a:hover {
+    color: #1D5D9B; 
+    }
+
+ a:active {
+    color: #2c6f8c; 
+    }
+.v_grafika {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.v_grafika p {
+    max-width: 300px;
+    text-align: center;
+    margin: 12px auto 0 auto;
+    word-wrap: break-word;
+    font-size: 14px;
+    color: #3674B5;
+    line-height: 1.4;
+	font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    margin: 10px auto 0 auto;
+    color: #3674B5;
+    line-height: 1.4;
+	font-weight: bold;
+}
+
+hr{
+    width: 100%; 
+    margin: 40px auto; 
+    border: none;
+    height: 2px;
+    background-color:#4DA8DA; 
+    border-radius: 4px; display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+  }    
+
+.slike {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding-top: 20px; 
+       }
+
+ .slike img {
+       width: 280px;
+       height: 400px;        
+       object-fit: cover;
+        border-radius: 12px;
+        border: 10px solid #4DA8DA;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	    transition: transform 0.3s ease;   
+    }
+  
+.p_grafika {
+  display: flex;
+  justify-content: center; 
+  gap: 30px; 
+  margin-top: 40px;
+  flex-wrap: wrap; 
+  text-align: center;
+}
+
+.p_grafika p {
+    max-width: 300px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    word-wrap: break-word;
+    font-size: 14px;
+    color:#3674B5;
+    line-height: 1.4;
+	font-weight: bold;
+	
+}
+.slika_6 img {
+  max-width: 380px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  border: 10px solid #4DA8DA;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  
+}
+
+.slika_7 img {
+  max-width: 480px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  border: 10px solid #4DA8DA;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  
+}
+.slika_5 img {
+  max-width: 480px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  border: 10px solid #4DA8DA;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  
+}
+.video {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .video-frame {
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.video p {
+    max-width: 300px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    word-wrap: break-word;
+    font-size: 14px;
+    color:#3674B5;
+    line-height: 1.4;
+	font-weight: bold;
+	
+}
+
+.video_2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+	    gap: 100px;
+	
+    }
+.button-wrapper {
+    text-align: center;
+    margin-top: 70px;
+	margin-bottom: 80px;
+}
+
+.button-link {
+    font-family: serif;
+    background-color: white;
+    color: #81BFDA;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: lightgrey;
+}
+
+.projektni {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.projektni p {
+    max-width: 300px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    word-wrap: break-word;
+    font-size: 14px;
+    color:#3674B5;
+    line-height: 1.4;
+	font-weight: bold;
+	
+}
+
+.projektni_2 img {
+  max-width: 480px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  border: 10px solid #4DA8DA;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+    
+footer {
+    background-color: white;
+    color: #81BFDA;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+	margin-top: 60px;
+}
